@@ -5,14 +5,15 @@
     <link>https://sunny-sandy.github.io/notes/</link>
     <description>Recent content in Notes on Sunny-sandy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://sunny-sandy.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 07 Oct 2022 01:08:34 +0800</lastBuildDate><atom:link href="https://sunny-sandy.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://sunny-sandy.github.io/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>数据结构</title>
+      <link>https://sunny-sandy.github.io/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Fri, 07 Oct 2022 01:08:34 +0800</pubDate>
       
-      <guid>https://sunny-sandy.github.io/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
-      <description>Part1：栈 1、基本方法 1 Boolean empty测试堆栈是否为空。 2 Object peek( ) 查看堆栈顶部的对象，但不从堆栈中移除它。 3 Object pop( ) 移除堆栈顶部的对象，并作为</description>
+      <guid>https://sunny-sandy.github.io/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <description>title: &amp;ldquo;数据结构&amp;rdquo; date: 2022-10-07T01:08:34+08:00 lastmod: 2022-10-07T01:08:34+08:00 description: &amp;quot;&amp;quot; tags: [] categories: [] author: &amp;ldquo;codecat&amp;rdquo; keywords: [] comment: true toc: true autoCollapseToc: true postMetaInFooter: false hiddenFromHomePage: false contentCopyright: true reward: true mathjax: true mathjaxEnableSingleDollar: false Part1：栈 1、基本方法 1 Boolean empt</description>
     </item>
     
   </channel>
