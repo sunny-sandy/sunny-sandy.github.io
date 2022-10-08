@@ -2,9 +2,9 @@
 
 
 ---
-# 10/7最大升序数组和
+## 10/7最大升序数组和
 
-## 题目
+### 题目
 
 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。
 
@@ -40,7 +40,7 @@
 1 <= nums.length <= 100
 1 <= nums[i] <= 100
 
-## 分析
+### 分析
 
 - 首先要注意临界条件，是从第一个开始临界最后还是从第二个开始临界第一个呢？
 
@@ -50,7 +50,7 @@
 
 - 注意用while循环求数组和的时候最后一个无论如何都是要加的，所以最后不用再判断*i*是否是*nums.length-1*了
 
-## 题解
+### 题解
 
 ​	官方：
 
@@ -97,9 +97,9 @@ class Solution {
 }
 ```
 
-# 10/8[优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
+## 10/8[优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
 
-## 题目
+### 题目
 
 给定两个大小相等的数组 nums1 和 nums2，nums1 相对于 nums2 的优势可以用满足 nums1[i] > nums2[i] 的索引 i 的数目来描述。
 
@@ -121,7 +121,7 @@ class Solution {
 nums2.length == nums1.length
 0 <= nums1[i], nums2[i] <= 109
 
-## 分析
+### 分析
 
 - 首先，就是个首先，for里面前两个条件不能加什么布尔语句
 
@@ -137,7 +137,7 @@ nums2.length == nums1.length
 
   - 这时就需要学习其他的省时的查找方法了
 
-## 题解
+### 题解
 
 ```java
 class Solution {

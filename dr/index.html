@@ -127,20 +127,25 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#题目">题目</a></li>
-    <li><a href="#分析">分析</a></li>
-    <li><a href="#题解">题解</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#题目-1">题目</a></li>
-    <li><a href="#分析-1">分析</a></li>
-    <li><a href="#题解-1">题解</a></li>
+    <li><a href="#107最大升序数组和">10/7最大升序数组和</a>
+      <ul>
+        <li><a href="#题目">题目</a></li>
+        <li><a href="#分析">分析</a></li>
+        <li><a href="#题解">题解</a></li>
+      </ul>
+    </li>
+    <li><a href="#108优势洗牌httpsleetcodecnproblemsadvantage-shuffle">10/8<a href="https://leetcode.cn/problems/advantage-shuffle/">优势洗牌</a></a>
+      <ul>
+        <li><a href="#题目-1">题目</a></li>
+        <li><a href="#分析-1">分析</a></li>
+        <li><a href="#题解-1">题解</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><hr>
-<h1 id="107最大升序数组和">10/7最大升序数组和</h1>
-<h2 id="题目">题目</h2>
+<h2 id="107最大升序数组和">10/7最大升序数组和</h2>
+<h3 id="题目">题目</h3>
 <p>给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。</p>
 <p>子数组是数组中的一个连续数字序列。</p>
 <p>已知子数组 [numsl, numsl+1, &hellip;, numsr-1, numsr] ，若对所有 i（l &lt;= i &lt; r），numsi &lt; numsi+1 都成立，则称这一子数组为 升序 子数组。注意，大小为 1 的子数组也视作 升序 子数组。</p>
@@ -162,7 +167,7 @@
 <p>提示：</p>
 <p>1 &lt;= nums.length &lt;= 100
 1 &lt;= nums[i] &lt;= 100</p>
-<h2 id="分析">分析</h2>
+<h3 id="分析">分析</h3>
 <ul>
 <li>
 <p>首先要注意临界条件，是从第一个开始临界最后还是从第二个开始临界第一个呢？</p>
@@ -173,7 +178,7 @@
 <p>注意用while循环求数组和的时候最后一个无论如何都是要加的，所以最后不用再判断<em>i</em>是否是<em>nums.length-1</em>了</p>
 </li>
 </ul>
-<h2 id="题解">题解</h2>
+<h3 id="题解">题解</h3>
 <p>​	官方：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -258,8 +263,8 @@
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h1 id="108优势洗牌httpsleetcodecnproblemsadvantage-shuffle">10/8<a href="https://leetcode.cn/problems/advantage-shuffle/" target="_blank" rel="noopener noreffer ">优势洗牌</a></h1>
-<h2 id="题目-1">题目</h2>
+</div><h2 id="108优势洗牌httpsleetcodecnproblemsadvantage-shuffle">10/8<a href="https://leetcode.cn/problems/advantage-shuffle/" target="_blank" rel="noopener noreffer ">优势洗牌</a></h2>
+<h3 id="题目-1">题目</h3>
 <p>给定两个大小相等的数组 nums1 和 nums2，nums1 相对于 nums2 的优势可以用满足 nums1[i] &gt; nums2[i] 的索引 i 的数目来描述。</p>
 <p>返回 nums1 的任意排列，使其相对于 nums2 的优势最大化。</p>
 <p>示例 1：</p>
@@ -272,7 +277,7 @@
 <p>1 &lt;= nums1.length &lt;= 105
 nums2.length == nums1.length
 0 &lt;= nums1[i], nums2[i] &lt;= 109</p>
-<h2 id="分析-1">分析</h2>
+<h3 id="分析-1">分析</h3>
 <ul>
 <li>
 <p>首先，就是个首先，for里面前两个条件不能加什么布尔语句</p>
@@ -297,7 +302,7 @@ nums2.length == nums1.length
 </ul>
 </li>
 </ul>
-<h2 id="题解-1">题解</h2>
+<h3 id="题解-1">题解</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
