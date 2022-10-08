@@ -3,7 +3,7 @@
         <title>Sunny-sandy&#39;s blog</title>
         <link>https://sunny-sandy.github.io/</link>
         <description>Welcome To Sunny-sandy&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 07 Oct 2022 21:36:39 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 07 Oct 2022 22:30:32 &#43;0800</lastBuildDate>
             <atom:link href="https://sunny-sandy.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Dr</title>
@@ -11,7 +11,7 @@
     <pubDate>Fri, 07 Oct 2022 21:36:39 &#43;0800</pubDate>
     <author>Sunny-sandy</author>
     <guid>https://sunny-sandy.github.io/dr/</guid>
-    <description><![CDATA[最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl, numsl+1, &hellip;, numsr-1, numsr]]]></description>
+    <description><![CDATA[10/7最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl,]]></description>
 </item>
 <item>
     <title>数据结构</title>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>Dr - Sunny-sandy&#39;s blog</title><meta name="Description" content="Welcome To Sunny-sandy&#39;s Blog"><meta property="og:title" content="Dr" />
-<meta property="og:description" content="最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl, numsl&#43;1, &hellip;, numsr-1, numsr]" />
+<meta property="og:description" content="10/7最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl," />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sunny-sandy.github.io/dr/" /><meta property="og:image" content="https://sunny-sandy.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-10-07T21:36:39+08:00" />
@@ -15,7 +15,7 @@
 <meta name="twitter:image" content="https://sunny-sandy.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Dr"/>
-<meta name="twitter:description" content="最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl, numsl&#43;1, &hellip;, numsr-1, numsr]"/>
+<meta name="twitter:description" content="10/7最大升序数组和 题目 给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。 子数组是数组中的一个连续数字序列。 已知子数组 [numsl,"/>
 <meta name="application-name" content="Sunny-sandy&#39;s blog">
 <meta name="apple-mobile-web-app-title" content="Sunny-sandy&#39;s blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/sunny-sandy.github.io\/dr\/"
-        },"genre": "posts","wordcount":  648 ,
+        },"genre": "posts","wordcount":  1394 ,
         "url": "https:\/\/sunny-sandy.github.io\/dr\/","datePublished": "2022-10-07T21:36:39+08:00","dateModified": "2022-10-07T21:36:39+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -118,8 +118,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Dr</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Sunny-sandy</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-07">2022-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;648 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-07">2022-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1394 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -131,9 +131,15 @@
     <li><a href="#分析">分析</a></li>
     <li><a href="#题解">题解</a></li>
   </ul>
+
+  <ul>
+    <li><a href="#题目-1">题目</a></li>
+    <li><a href="#分析-1">分析</a></li>
+    <li><a href="#题解-1">题解</a></li>
+  </ul>
 </nav></div>
             </div><div class="content" id="content"><hr>
-<h1 id="最大升序数组和">最大升序数组和</h1>
+<h1 id="107最大升序数组和">10/7最大升序数组和</h1>
 <h2 id="题目">题目</h2>
 <p>给你一个正整数组成的数组 nums ，返回 nums 中一个 升序 子数组的最大可能元素和。</p>
 <p>子数组是数组中的一个连续数字序列。</p>
@@ -248,6 +254,136 @@
 </span></span><span class="line"><span class="cl">            <span class="o">}</span>
 </span></span><span class="line"><span class="cl">        <span class="o">}</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">max</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="108优势洗牌httpsleetcodecnproblemsadvantage-shuffle">10/8<a href="https://leetcode.cn/problems/advantage-shuffle/" target="_blank" rel="noopener noreffer ">优势洗牌</a></h1>
+<h2 id="题目-1">题目</h2>
+<p>给定两个大小相等的数组 nums1 和 nums2，nums1 相对于 nums2 的优势可以用满足 nums1[i] &gt; nums2[i] 的索引 i 的数目来描述。</p>
+<p>返回 nums1 的任意排列，使其相对于 nums2 的优势最大化。</p>
+<p>示例 1：</p>
+<p>输入：nums1 = [2,7,11,15], nums2 = [1,10,4,11]
+输出：[2,11,7,15]
+示例 2：</p>
+<p>输入：nums1 = [12,24,8,32], nums2 = [13,25,32,11]
+输出：[24,32,8,12]</p>
+<p>提示：</p>
+<p>1 &lt;= nums1.length &lt;= 105
+nums2.length == nums1.length
+0 &lt;= nums1[i], nums2[i] &lt;= 109</p>
+<h2 id="分析-1">分析</h2>
+<ul>
+<li>
+<p>首先，就是个首先，for里面前两个条件不能加什么布尔语句</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len</span> <span class="cm">/*&amp;&amp; flag[i] != false*/</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">//java code   
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果你在前两个条件里面写这个，就会像 i==len时那样直接跳出循环，类似于<em>break</em>的用法，而不是你想得到的<em>continue</em>用法，切记切记</p>
+</li>
+<li>
+<p>还有就是一旦题目设计了大数字问题，就要考虑时间复杂度不能使用平方形式，否则就会超时报错</p>
+<ul>
+<li>这时就需要学习其他的省时的查找方法了</li>
+</ul>
+</li>
+</ul>
+<h2 id="题解-1">题解</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">advantageCount</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums1</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">nums2</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">//使nums1[]的优势最大化
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">//对于某一个nums1[i]，先找nums2中的小于nums1[i]的最大的
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">//如果没有小于nums1[i]的，就拿nums2中的最大值
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="n">nums1</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">minIndex</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span><span class="c1">//找最小时候的起始点
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span><span class="o">[]</span> <span class="n">nums3</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">len</span><span class="o">];</span><span class="c1">//以后返回值最好用ans
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">boolean</span><span class="o">[]</span> <span class="n">flag</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">boolean</span><span class="o">[</span><span class="n">len</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">nums1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="n">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="n">0</span><span class="o">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">len</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">//二分查找 找最小的大于 num2[i]的元素
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">while</span> <span class="o">(</span><span class="n">left</span> <span class="o">!=</span> <span class="n">right</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="n">left</span> <span class="o">+</span> <span class="o">((</span><span class="n">right</span> <span class="o">-</span> <span class="n">left</span><span class="o">)</span> <span class="o">&gt;&gt;</span> <span class="n">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(</span><span class="n">nums1</span><span class="o">[</span><span class="n">mid</span><span class="o">]</span> <span class="o">&lt;</span> <span class="n">nums2</span><span class="o">[</span><span class="n">i</span><span class="o">])</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">left</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">right</span> <span class="o">=</span> <span class="n">mid</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">//在left &lt; n的大前提下，如果这个数已经被访问过了或者是相等的数(产生不了优势)，就必须让left++来选取更好的数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">while</span> <span class="o">(</span><span class="n">left</span> <span class="o">&lt;</span> <span class="n">len</span> <span class="o">&amp;&amp;</span> 
+</span></span><span class="line"><span class="cl">                <span class="o">(</span><span class="n">flag</span><span class="o">[</span><span class="n">left</span><span class="o">]</span> <span class="o">||</span> <span class="n">nums1</span><span class="o">[</span><span class="n">left</span><span class="o">]</span> <span class="o">==</span> <span class="n">nums2</span><span class="o">[</span><span class="n">i</span><span class="o">]))</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">left</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">//走到头了，没找到满足既未访问又大于的数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span> <span class="o">(</span><span class="n">left</span> <span class="o">==</span> <span class="n">len</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">//没有大于num[i]的元素，取最小的元素
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">while</span> <span class="o">(</span><span class="n">flag</span><span class="o">[</span><span class="n">minIndex</span><span class="o">])</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">minIndex</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                <span class="n">nums3</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">nums1</span><span class="o">[</span><span class="n">minIndex</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">                <span class="n">flag</span><span class="o">[</span><span class="n">minIndex</span><span class="o">++]</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">flag</span><span class="o">[</span><span class="n">left</span><span class="o">]</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">nums3</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">nums1</span><span class="o">[</span><span class="n">left</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">nums3</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></td></tr></table>
